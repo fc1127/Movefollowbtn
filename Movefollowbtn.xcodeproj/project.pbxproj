@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CD2A29C1FAB1AF8004257B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD2A29B1FAB1AF8004257B9 /* AppDelegate.swift */; };
+		6CD2A29E1FAB1AF8004257B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD2A29D1FAB1AF8004257B9 /* ViewController.swift */; };
+		6CD2A2A11FAB1AF8004257B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CD2A29F1FAB1AF8004257B9 /* Main.storyboard */; };
+		6CD2A2A31FAB1AF8004257B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CD2A2A21FAB1AF8004257B9 /* Assets.xcassets */; };
+		6CD2A2A61FAB1AF8004257B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CD2A2A41FAB1AF8004257B9 /* LaunchScreen.storyboard */; };
+		6CD2A2B11FAB1AF8004257B9 /* MovefollowbtnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD2A2B01FAB1AF8004257B9 /* MovefollowbtnTests.swift */; };
+		6CD2A2BC1FAB1AF8004257B9 /* MovefollowbtnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD2A2BB1FAB1AF8004257B9 /* MovefollowbtnUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CD2A2AD1FAB1AF8004257B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CD2A2901FAB1AF8004257B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CD2A2971FAB1AF8004257B9;
+			remoteInfo = Movefollowbtn;
+		};
+		6CD2A2B81FAB1AF8004257B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CD2A2901FAB1AF8004257B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CD2A2971FAB1AF8004257B9;
+			remoteInfo = Movefollowbtn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6CD2A2981FAB1AF8004257B9 /* Movefollowbtn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Movefollowbtn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CD2A29B1FAB1AF8004257B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6CD2A29D1FAB1AF8004257B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6CD2A2A01FAB1AF8004257B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6CD2A2A21FAB1AF8004257B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CD2A2A51FAB1AF8004257B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6CD2A2A71FAB1AF8004257B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CD2A2AC1FAB1AF8004257B9 /* MovefollowbtnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovefollowbtnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CD2A2B01FAB1AF8004257B9 /* MovefollowbtnTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovefollowbtnTests.swift; sourceTree = "<group>"; };
+		6CD2A2B21FAB1AF8004257B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CD2A2B71FAB1AF8004257B9 /* MovefollowbtnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovefollowbtnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CD2A2BB1FAB1AF8004257B9 /* MovefollowbtnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovefollowbtnUITests.swift; sourceTree = "<group>"; };
+		6CD2A2BD1FAB1AF8004257B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CD2A2951FAB1AF8004257B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CD2A2A91FAB1AF8004257B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CD2A2B41FAB1AF8004257B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CD2A28F1FAB1AF8004257B9 = {
+			isa = PBXGroup;
+			children = (
+				6CD2A29A1FAB1AF8004257B9 /* Movefollowbtn */,
+				6CD2A2AF1FAB1AF8004257B9 /* MovefollowbtnTests */,
+				6CD2A2BA1FAB1AF8004257B9 /* MovefollowbtnUITests */,
+				6CD2A2991FAB1AF8004257B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CD2A2991FAB1AF8004257B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CD2A2981FAB1AF8004257B9 /* Movefollowbtn.app */,
+				6CD2A2AC1FAB1AF8004257B9 /* MovefollowbtnTests.xctest */,
+				6CD2A2B71FAB1AF8004257B9 /* MovefollowbtnUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CD2A29A1FAB1AF8004257B9 /* Movefollowbtn */ = {
+			isa = PBXGroup;
+			children = (
+				6CD2A29B1FAB1AF8004257B9 /* AppDelegate.swift */,
+				6CD2A29D1FAB1AF8004257B9 /* ViewController.swift */,
+				6CD2A29F1FAB1AF8004257B9 /* Main.storyboard */,
+				6CD2A2A21FAB1AF8004257B9 /* Assets.xcassets */,
+				6CD2A2A41FAB1AF8004257B9 /* LaunchScreen.storyboard */,
+				6CD2A2A71FAB1AF8004257B9 /* Info.plist */,
+			);
+			path = Movefollowbtn;
+			sourceTree = "<group>";
+		};
+		6CD2A2AF1FAB1AF8004257B9 /* MovefollowbtnTests */ = {
+			isa = PBXGroup;
+			children = (
+				6CD2A2B01FAB1AF8004257B9 /* MovefollowbtnTests.swift */,
+				6CD2A2B21FAB1AF8004257B9 /* Info.plist */,
+			);
+			path = MovefollowbtnTests;
+			sourceTree = "<group>";
+		};
+		6CD2A2BA1FAB1AF8004257B9 /* MovefollowbtnUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6CD2A2BB1FAB1AF8004257B9 /* MovefollowbtnUITests.swift */,
+				6CD2A2BD1FAB1AF8004257B9 /* Info.plist */,
+			);
+			path = MovefollowbtnUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CD2A2971FAB1AF8004257B9 /* Movefollowbtn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CD2A2C01FAB1AF8004257B9 /* Build configuration list for PBXNativeTarget "Movefollowbtn" */;
+			buildPhases = (
+				6CD2A2941FAB1AF8004257B9 /* Sources */,
+				6CD2A2951FAB1AF8004257B9 /* Frameworks */,
+				6CD2A2961FAB1AF8004257B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Movefollowbtn;
+			productName = Movefollowbtn;
+			productReference = 6CD2A2981FAB1AF8004257B9 /* Movefollowbtn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6CD2A2AB1FAB1AF8004257B9 /* MovefollowbtnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CD2A2C31FAB1AF8004257B9 /* Build configuration list for PBXNativeTarget "MovefollowbtnTests" */;
+			buildPhases = (
+				6CD2A2A81FAB1AF8004257B9 /* Sources */,
+				6CD2A2A91FAB1AF8004257B9 /* Frameworks */,
+				6CD2A2AA1FAB1AF8004257B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CD2A2AE1FAB1AF8004257B9 /* PBXTargetDependency */,
+			);
+			name = MovefollowbtnTests;
+			productName = MovefollowbtnTests;
+			productReference = 6CD2A2AC1FAB1AF8004257B9 /* MovefollowbtnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6CD2A2B61FAB1AF8004257B9 /* MovefollowbtnUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CD2A2C61FAB1AF8004257B9 /* Build configuration list for PBXNativeTarget "MovefollowbtnUITests" */;
+			buildPhases = (
+				6CD2A2B31FAB1AF8004257B9 /* Sources */,
+				6CD2A2B41FAB1AF8004257B9 /* Frameworks */,
+				6CD2A2B51FAB1AF8004257B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CD2A2B91FAB1AF8004257B9 /* PBXTargetDependency */,
+			);
+			name = MovefollowbtnUITests;
+			productName = MovefollowbtnUITests;
+			productReference = 6CD2A2B71FAB1AF8004257B9 /* MovefollowbtnUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CD2A2901FAB1AF8004257B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "God bless never bug";
+				TargetAttributes = {
+					6CD2A2971FAB1AF8004257B9 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					6CD2A2AB1FAB1AF8004257B9 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6CD2A2971FAB1AF8004257B9;
+					};
+					6CD2A2B61FAB1AF8004257B9 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6CD2A2971FAB1AF8004257B9;
+					};
+				};
+			};
+			buildConfigurationList = 6CD2A2931FAB1AF8004257B9 /* Build configuration list for PBXProject "Movefollowbtn" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CD2A28F1FAB1AF8004257B9;
+			productRefGroup = 6CD2A2991FAB1AF8004257B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CD2A2971FAB1AF8004257B9 /* Movefollowbtn */,
+				6CD2A2AB1FAB1AF8004257B9 /* MovefollowbtnTests */,
+				6CD2A2B61FAB1AF8004257B9 /* MovefollowbtnUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CD2A2961FAB1AF8004257B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CD2A2A61FAB1AF8004257B9 /* LaunchScreen.storyboard in Resources */,
+				6CD2A2A31FAB1AF8004257B9 /* Assets.xcassets in Resources */,
+				6CD2A2A11FAB1AF8004257B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CD2A2AA1FAB1AF8004257B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CD2A2B51FAB1AF8004257B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CD2A2941FAB1AF8004257B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CD2A29E1FAB1AF8004257B9 /* ViewController.swift in Sources */,
+				6CD2A29C1FAB1AF8004257B9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CD2A2A81FAB1AF8004257B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CD2A2B11FAB1AF8004257B9 /* MovefollowbtnTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CD2A2B31FAB1AF8004257B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CD2A2BC1FAB1AF8004257B9 /* MovefollowbtnUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CD2A2AE1FAB1AF8004257B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CD2A2971FAB1AF8004257B9 /* Movefollowbtn */;
+			targetProxy = 6CD2A2AD1FAB1AF8004257B9 /* PBXContainerItemProxy */;
+		};
+		6CD2A2B91FAB1AF8004257B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CD2A2971FAB1AF8004257B9 /* Movefollowbtn */;
+			targetProxy = 6CD2A2B81FAB1AF8004257B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6CD2A29F1FAB1AF8004257B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CD2A2A01FAB1AF8004257B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6CD2A2A41FAB1AF8004257B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CD2A2A51FAB1AF8004257B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CD2A2BE1FAB1AF8004257B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6CD2A2BF1FAB1AF8004257B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CD2A2C11FAB1AF8004257B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A9X7EFQK4Z;
+				INFOPLIST_FILE = Movefollowbtn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.owl.www.Movefollowbtn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CD2A2C21FAB1AF8004257B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A9X7EFQK4Z;
+				INFOPLIST_FILE = Movefollowbtn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.owl.www.Movefollowbtn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6CD2A2C41FAB1AF8004257B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A9X7EFQK4Z;
+				INFOPLIST_FILE = MovefollowbtnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.owl.www.MovefollowbtnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Movefollowbtn.app/Movefollowbtn";
+			};
+			name = Debug;
+		};
+		6CD2A2C51FAB1AF8004257B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A9X7EFQK4Z;
+				INFOPLIST_FILE = MovefollowbtnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.owl.www.MovefollowbtnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Movefollowbtn.app/Movefollowbtn";
+			};
+			name = Release;
+		};
+		6CD2A2C71FAB1AF8004257B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A9X7EFQK4Z;
+				INFOPLIST_FILE = MovefollowbtnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.owl.www.MovefollowbtnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Movefollowbtn;
+			};
+			name = Debug;
+		};
+		6CD2A2C81FAB1AF8004257B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A9X7EFQK4Z;
+				INFOPLIST_FILE = MovefollowbtnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.owl.www.MovefollowbtnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Movefollowbtn;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CD2A2931FAB1AF8004257B9 /* Build configuration list for PBXProject "Movefollowbtn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CD2A2BE1FAB1AF8004257B9 /* Debug */,
+				6CD2A2BF1FAB1AF8004257B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CD2A2C01FAB1AF8004257B9 /* Build configuration list for PBXNativeTarget "Movefollowbtn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CD2A2C11FAB1AF8004257B9 /* Debug */,
+				6CD2A2C21FAB1AF8004257B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CD2A2C31FAB1AF8004257B9 /* Build configuration list for PBXNativeTarget "MovefollowbtnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CD2A2C41FAB1AF8004257B9 /* Debug */,
+				6CD2A2C51FAB1AF8004257B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CD2A2C61FAB1AF8004257B9 /* Build configuration list for PBXNativeTarget "MovefollowbtnUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CD2A2C71FAB1AF8004257B9 /* Debug */,
+				6CD2A2C81FAB1AF8004257B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CD2A2901FAB1AF8004257B9 /* Project object */;
+}
